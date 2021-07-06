@@ -11,16 +11,16 @@ namespace Shahmat
         static void Main(string[] args)
         {
            
-            FARZIN far = new FARZIN();
+            OT far = new OT();
            
             while (true)
             {
-                Console.WriteLine("Farzin turgan joyni kiriting");
+                Console.WriteLine("Otni turgan joyni kiriting");
                 Console.WriteLine("X o'qdagi nuqtasi");
                 int x = int.Parse(Console.ReadLine());
                 Console.WriteLine("Y o'qdagi nuqtasi");
                 int y = int.Parse(Console.ReadLine());
-                far.Uradi(x, y);
+                far.Uradi(x-1, y-1);
             }
         }
 
